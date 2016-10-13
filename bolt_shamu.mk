@@ -32,11 +32,6 @@ PRODUCT_BRAND := Android
 PRODUCT_MODEL := Nexus 6
 PRODUCT_MANUFACTURER := motorola
 
-# Inline kernel building
-TARGET_KERNEL_CONFIG := shamu_defconfig
-TARGET_KERNEL_SOURCE := kernel/moto/shamu
-BOARD_KERNEL_IMAGE_NAME := zImage-dtb
-
 # Bootanimation
 PRODUCT_COPY_FILES += \
   device/moto/shamu/bootanimation/bootanimation.zip:system/media/bootanimation.zip
